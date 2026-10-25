@@ -1,0 +1,37 @@
+{
+  "project": "qPCR Rhythm Guard",
+  "version": "0.1.0",
+  "created_utc": "2026-10-25T07:43:43.631968+00:00",
+  "source_name": "synthetic.csv",
+  "source_sha256": "278c671edc65879d8c3669ff1630b9403b96c37a061cee79be18eb7f560319ec",
+  "config_sha256": "43f45da63746e479b13f0fbc2b2bdb9725bd54941909ca5580cf2b09df37b0bc",
+  "config": {
+    "reference_gene": "GAPDH",
+    "calibrator_group": "Control",
+    "calibrator_time_h": 0.0,
+    "period_h": 24.0,
+    "design": "unknown",
+    "technical_sd_limit": 0.5
+  },
+  "python": "3.12.14",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.1",
+    "matplotlib": "3.11.2"
+  },
+  "bh_family": "All finite p-values from all gene-by-group models in this invocation",
+  "n_planned_models": 4,
+  "n_tested_models": 0,
+  "csv_note": "Text starting with formula characters is prefixed by apostrophe; JSON preserves identifiers.",
+  "files": {
+    "figure_001.png": "c611303a6d18d4fe825706e60ddb42de5a3bacac2c7f82cf8e4a7364eae8bdc2",
+    "figure_001.svg": "89450310c1c4b2fad600cb160e206f9464837547e656f2aada947b2e72569053",
+    "figure_002.png": "d7321412243558a772d40c5c5420e9699c077043a08aaa8677844a771408c852",
+    "figure_002.svg": "032ec4e116ef6af89a4192fb96d5ff158bc32c3971464b8c321452c5060c8ee8",
+    "fits.csv": "03fab2ec9747f5ea1e9525a22ec6d44439c28fc38bba9e7488966f71f3abce00",
+    "normalized.csv": "8a121c21d117a58a156276994e4c67b8ddcecf6f097ef2a936fc4149ada67cdb",
+    "qc.csv": "bc8751022abbfc966fdf82ef513797df4a8bc1ab954bc45d2e2a793dca16d370",
+    "report.html": "819f9d31650663aeb5c592eeedb9486da6a77bac0162d4c86a65eb259cce70c3",
+    "results.json": "54a3549846a36e39b755f044ccde467e2eed7986990ab438f19e342b281d49d2"
+  }
+}

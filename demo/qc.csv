@@ -1,0 +1,9 @@
+﻿level,code,message,n_missing,n_raw_rows,gene,group,reason,n_input,n_valid,n_subjects,n_excluded,n_samples
+warning,missing_ct,Missing/Undetermined Ct values remain missing and are never replaced with zero; missingness may be nonrandom.,2,216,,,,,,,,
+info,normalization_assumptions,Normalization assumes one stable reference gene and equal amplification efficiencies; Ct values alone do not validate these assumptions.,,,,,,,,,,
+info,inferential_test_withheld,Cosinor estimates are descriptive; no P value or Q value is reported for this fit.,,,ClockA,Control,design_unknown_descriptive_only,18,18,18,,
+info,inferential_test_withheld,Cosinor estimates are descriptive; no P value or Q value is reported for this fit.,,,ClockA,Perturbed,design_unknown_descriptive_only,18,18,18,,
+info,inferential_test_withheld,Cosinor estimates are descriptive; no P value or Q value is reported for this fit.,,,StableB,Control,design_unknown_descriptive_only,18,18,18,,
+warning,missing_observations_excluded,Incomplete normalized observations were excluded from the fit; missingness may be nonrandom and is not evidence of no change.,,,StableB,Perturbed,,18,17,,1,
+info,inferential_test_withheld,Cosinor estimates are descriptive; no P value or Q value is reported for this fit.,,,StableB,Perturbed,design_unknown_descriptive_only,18,17,17,,
+info,sample_level_analysis,"Technical wells were averaged within sample and gene before normalization; fit n counts sample-level observations, and n_subjects counts distinct biological subjects.",,,,,,,,36,,36
