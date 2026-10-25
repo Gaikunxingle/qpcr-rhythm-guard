@@ -55,6 +55,6 @@ The application thresholds are software guardrails, not MIQE certification or pr
 
 ## Development and maintenance
 
-See [CONTRIBUTING](CONTRIBUTING.md) and [the roadmap](docs/ROADMAP.md). The CI workflow is supplied for GitHub; local tests do not imply that a remote CI run has occurred. No external adoption, publication, download count, or grant award is claimed.
+See [CONTRIBUTING](CONTRIBUTING.md) and [the roadmap](docs/ROADMAP.md). [GitHub Actions](https://github.com/Gaikunxingle/qpcr-rhythm-guard/actions/workflows/tests.yml) checks installation, 22 tests, and synthetic report generation on Windows and Ubuntu with Python 3.10 and 3.12. All four jobs passed in the [initial publication run](https://github.com/Gaikunxingle/qpcr-rhythm-guard/actions/runs/40176021104) on 2026-10-25. No external adoption, publication, download count, or grant award is claimed.
 
 MIT licensed. Maintained by [Gaikunxingle](https://github.com/Gaikunxingle). The package-index name has not been reserved; install from this repository.
