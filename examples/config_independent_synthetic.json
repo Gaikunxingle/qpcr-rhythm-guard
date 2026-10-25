@@ -1,0 +1,8 @@
+{
+  "reference_gene": "GAPDH",
+  "calibrator_group": "Control",
+  "calibrator_time_h": 0,
+  "period_h": 24,
+  "design": "independent",
+  "technical_sd_limit": 0.5
+}
